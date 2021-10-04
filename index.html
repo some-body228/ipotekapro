@@ -4,20 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css" >
     <title>Document</title>
 </head>
-<body>
+<body style="margin: 0; font-family: 'Montserrat';">
   <main>
       <header class="header">
-          <img  class="header__logo" src="images/logo.png">
-          <nav>
-              <a></a>
-              <a></a>
-              <a></a>
-              <a></a>
-              <a></a>
-          </nav>
+          <div class="header__logo-container">
+            <img  class="header__logo" src="images/logo.png" alt="logo">
+            <nav class="header__navbar">
+                  <a class="header__link">Об агенстве</a>
+                  <a class="header__link">Услуги</a>
+                  <a class="header__link">Отзывы</a>
+                  <a class="header__link">Контакты</a>
+            </nav>
+            <a class="header__link">Обратный звонок</a>
+          </div>
+          <div class="header__content-container">
+            <h1 class="header__title">Помощь с оформлением ипотеки с вероятностью <span class="header__title-red">одобрения 98%</span></h1>
+            <p class="header__subtitle">Поиск оптимальных решений под вашу ситуацию с индивидуальным подходом</p>
+            <ul class="header__advantages">
+              <li class="header__advantages-item"><h2 class="header__advantages-title">14 лет</h2><p class="header__advantages-caption">работы в ипотечном кредитовании</p></li>
+              <li class="header__advantages-item"><h2 class="header__advantages-title">80%</h2><p class="header__advantages-caption">клиентов по рекомендации</p></li>
+              <li class="header__advantages-item"><h2 class="header__advantages-title">150</h2 ><p class="header__advantages-caption">заключённых сделок</p></li>
+            </ul>
+            <button class="header__button">Бесплатная консультация</button>
+            <div class="header__present-container">
+              <img class="header__present-line" src="./images/Vector.png" alt="line">
+              <img class="header__present-img" src="./images/gift-box 2.png" alt="present">
+              <p class="header__present-caption">Получи в подарок бесплатный гайд по ипотеке</p>
+            </div>
+          </div>
       </header>
       <section class="partners">
           <h2 class="partners__header">Наши партнеры</h2>

@@ -1,3 +1,93 @@
 .header{
     background-image: url(../images/city.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 47px 5% 100px;
+}
+.header__logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__navbar{
+
+}
+.header__link{
+    color: #1A2D44;
+    font-size: 18px;
+line-height: 22px;
+margin-left: 60px;
+}
+.header__content-container{
+    width: 60%;
+    position: relative;
+}
+.header__title{
+    font-weight: 800;
+font-size: 46px;
+line-height: 56px;
+}
+.header__title-red{
+    color: #DA5B5B;
+}
+.header__subtitle{
+    color: rgba(26, 45, 68, 0.7);
+    font-size: 21px;
+    line-height: 133.9%;
+    padding-left: 20px;
+    border-left: 1px solid #C4C4C4;
+}
+.header__advantages{
+ display: flex;
+ list-style-type: none;
+ justify-content: space-between;
+ padding: 0;
+}
+.header__advantages-item{
+
+}
+.header__advantages-title{
+    font-weight: bold;
+font-size: 41px;
+line-height: 50px;
+color: #6985A8;
+margin: 0;
+}
+.header__advantages-caption{
+    font-size: 18px;
+line-height: 22px;
+color: #797979;
+}
+.header__button{
+    background: #DA5B5B;
+border-radius: 7px;
+width: 330px;
+height: 75px;
+color:white;
+border:none;
+margin-bottom: 18px;
+font-size: 20px;
+line-height: 24px;
+}
+.header__present-container{
+ max-width: 300px;
+ display: flex;
+ align-items: center;
+ margin-left: 450px;
+ position: relative;
+}
+.header__present-line{
+    position: absolute;
+    top: -50px;
+    left: -60px;
+}
+.header__present-img{
+    width: 43px;
+    height: 43px;
+}
+.header__present-caption{
+    max-width: 250px;
+font-size: 16px;
+line-height: 133.9%;
 }
