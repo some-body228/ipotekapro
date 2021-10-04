@@ -1,0 +1,10 @@
+@import url(./__grid/footer__grid.css);
+@import url(./__grid-item/footer__grid-item.css);
+@import url(./__icons/footer__icons.css);
+@import url(./__icons-item/footer__icons-item.css);
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

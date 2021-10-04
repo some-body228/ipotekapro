@@ -1,0 +1,10 @@
+.footer__grid {
+    display: grid;
+    text-decoration: none;
+    list-style-type: none;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+    width: 92.5%;
+    margin: 0 auto;
+}
