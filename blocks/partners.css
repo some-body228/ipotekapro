@@ -1,0 +1,35 @@
+.partners {
+    width: 69.5%;
+    margin: 0 auto;
+}
+
+.partners__list {
+    display: grid;
+    text-decoration: none;
+    list-style-type: none;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 4%;
+    width: 100%;
+    margin: 0 auto 50px;
+    padding: 0;
+}
+
+.partners__list-item {
+    max-width: 100%;
+}
+
+.partners__list-item-container {
+    display: grid;
+    justify-content: flex-end;
+}
+
+.partners__list-item-container-alfa {
+    display: grid;
+    justify-content: center;
+}
+
+.partners__list_second-row {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6%;
+}
