@@ -19,6 +19,13 @@
 line-height: 22px;
 margin-left: 60px;
 }
+.header__link_red-line{
+    border-bottom: #DA5B5B solid 1px;
+}
+.header__link:hover{
+    color: #DA5B5B;
+    cursor: pointer;
+}
 .header__content-container{
     width: 60%;
     position: relative;
@@ -69,6 +76,9 @@ border:none;
 margin-bottom: 18px;
 font-size: 20px;
 line-height: 24px;
+}
+.header__button:hover{
+    box-shadow: 0 3px 6px 0px #da5b5b;
 }
 .header__present-container{
  max-width: 300px;
