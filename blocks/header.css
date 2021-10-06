@@ -32,10 +32,11 @@ margin-left: 60px;
 }
 .header__title{
     font-weight: 800;
-font-size: 46px;
-line-height: 56px;
+    font-size: 46px;
+    line-height: 56px;
+
 }
-.header__title-red{
+.red-text{
     color: #DA5B5B;
 }
 .header__subtitle{
