@@ -1,0 +1,49 @@
+.skyscraper {
+    position: relative;
+    display: flex;
+    width: 75.2%;
+    margin: 0 auto;
+    align-items: center;
+    background-color:#F2F9FF;
+    padding: 60px 0 60px 93px;
+    margin-top: 62px;
+    border-radius: 10px;
+}
+
+.skyscraper__build {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 18px;
+    z-index: 1;
+}
+
+.skyscraper__build_form {
+    right: 3%;
+}
+
+.skyscraper_form {
+    margin-bottom: 140px;
+}
+
+.skyscraper__header {
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 37px;
+    color: #34404F; 
+    width: 75%;  
+    margin: 0;
+}
+
+.skyscraper__paragraph {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 133.9%;
+    color: rgba(26, 45, 68, 0.95);
+    margin: 14px 0 30px 0;
+    width: 67%;
+}
+
+.skyscraper__text-container {
+    z-index: 2;
+}
