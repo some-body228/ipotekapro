@@ -1,0 +1,145 @@
+/* User styles */
+/* @media screen and (min-width: 1400px) {
+    .ant-carousel {
+      max-width: 1690px;
+    }
+  } */
+
+  /* @media screen and (min-width: 1690px) {
+    .ant-carousel {
+      max-width: 1290px;
+    }
+  }
+
+@media screen and (min-width: 911px) {
+    .ant-carousel {
+        /* max-width: 807px; */
+      /* max-width: 1290px;
+    }
+  }
+  
+  @media screen and (min-width: 641px) and (max-width: 910px) {
+    .ant-carousel {
+      max-width: 540px;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .ant-carousel {
+      max-width: 270px;
+    }
+  } */ 
+  @media screen and (max-width: 1690px) {
+    .ant-carousel {
+        max-width: 1290px;
+      }
+    }
+  
+
+  @media screen and (max-width: 1400px) {
+    .ant-carousel {
+        max-width: 807px;
+      }
+    }
+
+    @media screen and (max-width: 950px) {
+        .ant-carousel {
+            max-width: 534px;
+          }
+        }
+  
+  .ant-carousel {
+    margin: 50px auto auto;
+    padding-top: 10px;
+    background-color: white;
+    max-width: 1290px;
+  }
+  
+  .ant-carousel-element {
+    width: 264px;
+    text-align: center;
+  }
+
+  .ant-carousel-element-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+  }
+  
+  /* General styles */
+  .ant-carousel {
+    width: auto;
+    position: relative;
+  }
+  
+  .ant-carousel-hider {
+    overflow: hidden;
+  }
+  
+  .ant-carousel-list {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .ant-carousel-element {
+    display: block;
+    flex: 0 0 auto;
+  }
+
+  .ant-carousel-paragraph {
+    font-size: 17px;
+    line-height: 139.9%;
+    color: rgba(26, 45, 68, 0.6);
+  }
+  
+  /* Navigation item styles */
+  div.ant-carousel-arrow-left,
+  div.ant-carousel-arrow-right {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.6;
+    z-index: 32;
+  }
+  
+  div.ant-carousel-arrow-right {
+    right: -51px;
+    top: 40%;
+    display: block;
+    background: url("../images/arrow.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 50%;
+  }
+  
+  div.ant-carousel-arrow-right:hover {
+   opacity: 1;
+  }
+  
+  div.ant-carousel-dots {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    z-index: 30;
+    text-align: center;
+  }
+  
+  span.ant-dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    padding: 0;
+    display: inline-block;
+    background-color: #BBB;
+    border-radius: 5px;
+    cursor: pointer;
+  }
