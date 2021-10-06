@@ -1,0 +1,115 @@
+.work{
+    max-width: 90%;
+    margin: 120px auto 150px;
+}
+.work__title{
+    font-weight: 800;
+font-size: 29px;
+line-height: 35px;
+
+}
+.work__subtitle{
+    font-size: 21px;
+line-height: 133.9%;
+max-width: 660px;
+margin-bottom: 90px;
+}
+.work__cardlist{
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.work__card{
+    padding: 20px 45px 70px;
+    box-shadow: 0px 4px 29px rgba(114, 181, 232, 0.1);
+    position: relative;
+    height: 316px;
+    overflow: hidden;
+}
+.work__card-number{
+    font-weight: 800;
+font-size: 54px;
+line-height: 66px;
+color: #E8F3FD;
+margin: 0;
+position: absolute;
+top: 20px;
+right: 45px;
+}
+.work__card-title{
+    margin: 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133.9%;
+    color: rgba(26, 45, 68, 0.95);
+    padding-bottom: 25px;
+    position: relative;
+    top: 0px;
+    margin-top: 210px;
+    transition: top .2s linear;
+}
+.work__servicelist{
+    transition: opacity .2s linear, visibility .2s linear, top .2s  linear;
+    position: relative;
+    visibility: hidden;
+    top: 0px;
+    list-style-type: square;
+    opacity: 0;
+    padding-left: 20px;
+}
+.work__service{
+    font-size: 16px;
+    line-height: 139.9%;
+    color: rgba(26, 45, 68, 0.95);
+    margin-bottom: 13px;
+
+}
+.work__service::marker{
+    color: #A8CFF0;
+    font-size: 30px;
+}
+.work__more-button{
+    width: 64px;
+    height: 10px;
+    background-image: url(../images/arror.png);
+    background-size: contain;
+    background-position: left;
+    background-color: rgba(114, 181, 232, 0);
+    border: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: absolute;
+    bottom: 45px;
+    left: 45px;
+}
+.work__card:hover > .work__more-button:before{
+    content: "Подробнее";
+    color: #DA5B5B;
+    background-color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 139.9%;
+    position: absolute;
+    padding-right: 5px;
+    left: -70px;
+    top: -6px;
+}
+.work__card:hover > .work__more-button{
+
+    left: 120px;
+}
+
+
+
+.work__card:hover > .work__servicelist{
+    visibility: visible;
+    opacity: 1;
+    top: -190px;  
+} 
+.work__card:hover > .work__card-number{
+    display: none;
+} 
+.work__card:hover > .work__card-title{
+    top: -190px;
+} 
