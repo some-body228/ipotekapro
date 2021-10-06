@@ -25,7 +25,6 @@ max-width: 840px;
     font-weight: 600;
 font-size: 22px;
 line-height: 133.9%;
-/* or 29px */
 color: rgba(26, 45, 68, 0.95);
 display: inline;
 }
@@ -39,7 +38,6 @@ color: #72B5E8;
 .feedback-el-paragraph{
     font-size: 17px;
 line-height: 139.9%;
-/* or 24px */
 
 
 color: rgba(26, 45, 68, 0.6);
