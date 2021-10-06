@@ -52,7 +52,7 @@
     margin: 50px auto auto;
     padding-top: 10px;
     background-color: white;
-  
+    max-width: 1290px;
   }
   
   .ant-carousel-element {
