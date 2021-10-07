@@ -8,3 +8,26 @@
     width: 92.5%;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 911px) {
+    .footer__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 5px;
+        width: 92.5%;
+        margin: 0 auto;
+        padding: 0;
+    }    
+    }
+
+
+@media screen and (max-width: 450px) {
+        .footer__grid {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+            gap: 5px;
+            width: 92.5%;
+            margin: 0 auto;
+            padding: 0;
+        }    
+        }
