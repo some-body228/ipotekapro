@@ -5,3 +5,13 @@
 .footer__icons-item:first-of-type {
     margin-left: 0;
 }
+
+@media screen and (max-width: 911px) {
+    .footer__icons-item:first-of-type {
+        margin-left: 35px;
+    }
+
+    .footer__icons-item {
+        margin-bottom: 5px;
+    }
+    }

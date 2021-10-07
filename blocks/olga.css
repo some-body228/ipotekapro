@@ -36,6 +36,12 @@ z-index: -1;
     width: 73%;
 }
 
+.olga__header {
+    font-size: 31px;
+    line-height: 38px;
+    color: rgba(52, 64, 79, 0.95);
+}
+
 .olga__quote {
     display: flex;
     align-items: flex-start;
@@ -99,3 +105,107 @@ z-index: -1;
         width: 47%;
     }
     }
+
+    @media screen and (max-width: 1000px) {
+        .olga {
+            padding: 50px 0 0 5%;
+        }
+
+        .olga__item-paragraph {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 120%;
+            color: #34404F;
+            margin: 1px 0 41px 0;
+            width: 40%;
+        }
+
+        .olga__about {
+            width: 73%;
+            padding: 48px 0 51px 39px;
+        }
+
+        .olga__paragraph {
+            font-size: 14px;
+            width: 73%;
+        }
+
+        .olga__header {
+            font-size: 21px;
+        }
+
+        .olga__quote-paragraph {
+            font-size: 12px;
+            line-height: 25px;
+            width: 50%;
+        }
+
+        .olga__item-header {
+            font-size: 26px;
+        }
+        }
+
+        @media screen and (max-width: 700px) {
+            .olga {
+                padding: 20px 0 0 5%;
+            }
+
+            .olga__item-paragraph {
+                font-size: 11px;
+                line-height: 110%;
+                margin: 1px 0 5px 0;
+                width: 30%;
+            }
+
+            .olga__about {
+                width: 69%;
+                padding: 28px 0 31px 19px;
+            }
+    }
+
+
+    @media screen and (max-width: 525px) {
+        .olga__quote-paragraph {
+            width: 70%;
+        }
+
+        .olga__img {
+          left: 53%;
+        }
+    }
+
+    @media screen and (max-width: 430px) {
+        .olga__header {
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        .olga__quote-paragraph {
+            line-height: 14px;
+            width: 80%;
+            margin-top: 41px;
+        }
+
+        .olga__item_first {
+            margin-left: -54%;
+        }
+        
+        .olga__item_forth {
+            margin-left: -54%;
+        }
+        
+        .olga__item_second {
+            margin-left: -54%;
+        }
+        
+        .olga__quote-dash {
+            padding: 45px 9px 0 0;
+        }
+
+        .olga__paragraph {
+            width: 98%;
+        }
+
+    
+    }
+    

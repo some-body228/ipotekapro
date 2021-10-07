@@ -6,7 +6,7 @@
     align-items: center;
     background-color:#F2F9FF;
     padding: 60px 0 60px 93px;
-    margin-top: 62px;
+    margin-top: 153px;
     border-radius: 10px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .skyscraper_form {
-    margin-bottom: 140px;
+    margin-bottom: 135px;
 }
 
 .skyscraper__header {
@@ -46,4 +46,36 @@
 
 .skyscraper__text-container {
     z-index: 2;
+}
+
+@media screen and (max-width: 870px) {
+    .skyscraper {
+        padding: 22px 0 53px 18px;
+    }
+
+    .skyscraper__build {
+        width: 57%;
+    }
+
+    .skyscraper__header {
+        font-size: 19px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .skyscraper__paragraph {
+        width: 87%;
+        font-size: 14px;
+    }
+
+    .skyscraper__header {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    
+    .skyscraper__build {
+        width: 37%;
+    }
 }

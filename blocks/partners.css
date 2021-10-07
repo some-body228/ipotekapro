@@ -19,6 +19,14 @@
     max-width: 100%;
 }
 
+.partners__header {
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 35px;
+    color: #34404F;
+    margin: 120px 0 53px 0;
+}
+
 .partners__list-item-container {
     display: grid;
     justify-content: flex-end;
@@ -32,4 +40,16 @@
 .partners__list_second-row {
     grid-template-columns: repeat(5, 1fr);
     gap: 6%;
+}
+
+@media screen and (max-width: 600px) {
+    .partners__list {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin: 0 auto 10px;
+    }
+
+    .partners__list-item-container-alfa {
+        justify-content: end;
+    }
 }
