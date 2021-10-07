@@ -222,4 +222,5 @@ Ant.initialize = function(that) {
 	}
 };
 
-new Ant();
+new Ant("feedback");
+new Ant("people")

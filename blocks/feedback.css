@@ -1,0 +1,53 @@
+.carousel-feedback{
+    width: 90%;
+    margin: 0 auto;
+}
+.feedback-main-title{
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 35px;
+}
+.feedback-subtitle{
+    font-size: 21px;
+line-height: 133.9%;
+max-width: 840px;
+}
+.ant-carousel-feedback{
+    margin-left: 0 !important;
+}
+.feedback-element{
+    min-width: 660px;
+    text-align: left !important;
+    padding: 30px 40px 45px 62px;
+    box-shadow: 0px 4px 29px rgba(114, 181, 232, 0.1);
+}
+.feedback-title{
+    font-weight: 600;
+font-size: 22px;
+line-height: 133.9%;
+color: rgba(26, 45, 68, 0.95);
+display: inline;
+}
+.feedback-el-subtitle{
+    display: inline;
+    margin-left: 17px;
+    font-size: 15px;
+line-height: 139.9%;
+color: #72B5E8;
+}
+.feedback-el-paragraph{
+    font-size: 17px;
+line-height: 139.9%;
+
+
+color: rgba(26, 45, 68, 0.6);
+}
+.feedback-mask{
+    position: absolute;
+    width: 50px;
+    background: white;
+    top:0;
+    right: -25px;
+    bottom: 0;
+    filter: blur(14px);
+}
