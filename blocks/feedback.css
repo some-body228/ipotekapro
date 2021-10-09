@@ -52,25 +52,84 @@ color: rgba(26, 45, 68, 0.6);
     bottom: 0;
     filter: blur(14px);
 }
-@media screen and (max-width: 1000px) {
-    .feedback-element{
-        width: 60vw !important;
-    }
-}
-@media screen and (max-width: 700px) {
-    .feedback-main-title{
-        font-size: 16px;
-        line-height: 20px;
-    }
-    .feedback-subtitle{
-        font-size: 14px;
-    }
-    .feedback-element{
-        padding: 10px;
-    }
-    .feedback-el-subtitle{
-        display: block;
-        margin: 0;
 
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1690px) {
+
+      .ant-carousel-feedback{
+        max-width: 1290px !important;
     }
-}
+    }
+  
+
+  @media screen and (max-width: 1400px) {
+      .ant-carousel-feedback{
+        max-width: 807px !important;
+    }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .feedback-element{
+            width: 60vw !important;
+        }
+    }
+
+    @media screen and (max-width: 950px) {
+          .ant-carousel-feedback{
+            max-width: 534px !important;
+        }
+        }
+
+        @media screen and (max-width: 700px) {
+            .feedback-main-title{
+                font-size: 16px;
+                line-height: 20px;
+            }
+            .feedback-subtitle{
+                font-size: 14px;
+            }
+            .feedback-element{
+                padding: 10px;
+            }
+            .feedback-el-subtitle{
+                display: block;
+                margin: 0;
+        
+            }
+        }
+
+        @media screen and (max-width: 660px) {
+              .ant-carousel-feedback{
+                max-width: 434px !important;
+            }
+
+            .feedback-element{
+                width: 40vw !important;
+            }
+
+            .feedback-el-paragraph{
+                font-size: 12px;
+                line-height: 119.9%;
+        }
+    }
+
+            @media screen and (max-width: 550px) {
+                  .ant-carousel-feedback{
+                    max-width: 234px !important;
+                }
+                }
+
+                @media screen and (max-width: 380px) {
+                    .ant-carousel{
+                        width: 78%;
+                        margin: 0;
+                      }
+                    }

@@ -153,3 +153,42 @@ right: 45px;
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+@media screen and (max-width: 500px) {
+    .work__more-button{
+
+        left: 120px;
+    }
+    
+    .work__servicelist{
+        visibility: visible;
+        opacity: 1;
+        top: -190px;  
+    } 
+    .work__card-number{
+        display: none;
+    } 
+   /* .work__card-title{
+        top: -190px;
+    }  */
+
+   .work__more-button:before{
+        content: "Подробнее";
+        color: #DA5B5B;
+        background-color: white;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 139.9%;
+        position: absolute;
+        padding-right: 5px;
+        left: -70px;
+        top: -6px;
+    }
+
+   .work__card-title{
+        top: -360px;
+    } 
+   .work__servicelist{
+        top: -360px;  
+    } 
+}
